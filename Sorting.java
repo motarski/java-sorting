@@ -4,7 +4,6 @@ import java.util.regex.Pattern;
 
 public class Sorting {
     public static ArrayList<Integer> userEntersNumbers() {
-
         ArrayList<Integer> enteredNumbers = new ArrayList<>();
         Pattern stopEntered = Pattern.compile("[sS][Tt][oO][pP]");
         Scanner userInput = new Scanner(System.in);
@@ -25,9 +24,7 @@ public class Sorting {
         }
         return enteredNumbers;
     }
-
     public static LinkedHashSet<Integer> sortList(ArrayList<Integer> userEntersNumbers) {
-
         Collections.sort(userEntersNumbers);
         LinkedHashSet<Integer> sortedFinaNumbers = new LinkedHashSet<>(userEntersNumbers);
             return  sortedFinaNumbers;
