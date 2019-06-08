@@ -9,6 +9,6 @@ public class Numbers {
         LinkedHashSet<Integer> sortedFinaNumbers = new LinkedHashSet<>(Sorting.sortList(enteredNumbers));
 
         System.out.println("Sorted list is: " + sortedFinaNumbers );
-        System.out.println("\n\nConsultant Junior Java Developer\n");
+        System.out.println("\n\nConsole java sorting app\n");
     }
 }
