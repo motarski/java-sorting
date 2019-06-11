@@ -2,3 +2,5 @@
 Just for fun.. playing with datatypes and static methods
 
 # Adding line fo rebase test
+
+# Adding third line
